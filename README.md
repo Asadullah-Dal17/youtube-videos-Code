@@ -1,2 +1,2 @@
 # youtube-videos-Code
-This repository contains the code YouTube Video. 
+This repository contains the code of YouTube Video. 
