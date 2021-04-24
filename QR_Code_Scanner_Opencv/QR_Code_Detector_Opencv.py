@@ -4,13 +4,13 @@ import numpy as np
 print("You need Opencv version 4.5.1, Yours is : ", cv.__version__)
 
 # This Code work on Opencv Version 4.5.1
-cap = cv.VideoCapture("Video.mp4")
+cap = cv.VideoCapture(2)
 # Qr code Detector QR
 QR_Detector =cv.QRCodeDetector()
 BBOX =[]
 while True:
     ret, frame =cap.read()
-    frame = cv.resize(frame, None, fx=0.4, fy=0.4)
+    # frame = cv.resize(frame, None, fx=0.4, fy=0.4)
     if ret == False:
         break
     # frame = cv.resize(frame, None, fx=0.5, fy=0.5)
